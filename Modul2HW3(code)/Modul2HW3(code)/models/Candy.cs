@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Candy : SugarProducts
+public abstract class Candy : SugarProducts
 {
     public ColorCandyWrapperType ColorCandyWrapper { get; set; } // Цвет фантика
 }

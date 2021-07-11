@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class SugarProducts : Confectionery
+public abstract class SugarProducts : Confectionery
 {
     // f
 }

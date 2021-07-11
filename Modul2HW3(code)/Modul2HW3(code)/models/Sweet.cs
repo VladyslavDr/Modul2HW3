@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Sweet
+public abstract class Sweet
 {
     public string Name { get; set; } // имя
     public int СalorieСontent { get; set; } // калорийность
-    public int Weight { get; set; } // вес
+    public Weight Weight { get; set; } // вес
 }

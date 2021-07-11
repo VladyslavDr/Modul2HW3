@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Confectionery : Sweet
+public abstract class Confectionery : Sweet
 {
-    public int AmountOfSugar { get; set; } // Количество сахара
+    public Weight AmountOfSugar { get; set; } // Количество сахара
 }
