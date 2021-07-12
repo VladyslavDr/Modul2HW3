@@ -10,7 +10,8 @@ public class CandyProvider : ICandyProvider
             new Caramel
             {
                 Name = "text1",
-                Form = FormType.Rhombus, СalorieСontent = 125,
+                Form = FormType.Rhombus,
+                СalorieСontent = 56,
                 Weight = new Weight { Value = 78, Unit = UnitWeight.Grams },
                 AmountOfSugar = new Weight { Value = 32, Unit = UnitWeight.Grams }
             },
@@ -20,7 +21,7 @@ public class CandyProvider : ICandyProvider
                 Name = "Milca",
                 Type = ChocolateType.Dark,
                 AmountOfSugar = new Weight { Value = 250, Unit = UnitWeight.Grams },
-                СalorieСontent = 356,
+                СalorieСontent = 15,
                 Weight = new Weight { Value = 3, Unit = UnitWeight.Grams },
                 ColorCandyWrapper = ColorCandyWrapperType.Green
             },
@@ -41,7 +42,7 @@ public class CandyProvider : ICandyProvider
                 Weight = new Weight { Value = 12, Unit = UnitWeight.Grams },
                 AmountOfSugar = new Weight { Value = 10, Unit = UnitWeight.Grams },
                 Form = FormType.Cock,
-                СalorieСontent = 356,
+                СalorieСontent = 56,
                 ColorCandyWrapper = ColorCandyWrapperType.Blue
             }
         };

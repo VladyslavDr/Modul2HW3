@@ -20,4 +20,9 @@ public class PresentServiсe : IPresentService
 
         return candies;
     }
+
+    public int GetCandy(Candy[] candies, Candy candy)
+    {
+        return candies.CandyCount(candy);
+    }
 }
