@@ -10,18 +10,21 @@ public class Starter
 
         var weightPresent = new PresentServiсe().GetWeightPresent(present.Candies);
 
-        foreach (var i in present.Candies)
+        Console.WriteLine($"the weight of each candy in the gift: ");
+
+        foreach (var item in present.Candies)
         {
-            Console.Write($"{i.Weight.Value} ");
+            Console.Write($"{item.Weight.Value} ");
         }
 
         Console.WriteLine();
+        Console.WriteLine($"ArraySort sorting by weight of candies: ");
 
         var sortCandies = new PresentServiсe().ArraySort(present.Candies);
 
-        foreach (var i in sortCandies)
+        foreach (var item in sortCandies)
         {
-            Console.Write($"{i.Weight.Value} ");
+            Console.Write($"{item.Weight.Value} ");
         }
 
         Console.WriteLine();
@@ -32,9 +35,9 @@ public class Starter
         // количество карамелек по калориям = 56
         var counterCaramel = new PresentServiсe().GetCandy(present.Candies, new Caramel { СalorieСontent = 56 });
 
-        Console.WriteLine(counterChocolate);
-        Console.WriteLine(counterCaramel);
+        Console.WriteLine($"counter Chocolate width СalorieСontent = 15 in Present: {counterChocolate}");
+        Console.WriteLine($"counter Caramel width СalorieСontent = 56 in Present: {counterCaramel}");
 
-        Console.WriteLine($"Weight Present: {weightPresent}");
+        Console.WriteLine($"Weight All Candies in Present: {weightPresent}");
     }
 }
