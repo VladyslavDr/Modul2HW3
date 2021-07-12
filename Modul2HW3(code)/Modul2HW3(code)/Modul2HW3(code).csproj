@@ -16,4 +16,9 @@
     </PackageReference> 
   </ItemGroup> 
  
+  <ItemGroup>
+    <Folder Include="Config Services\" />
+    <Folder Include="Config\" />
+  </ItemGroup> 
+ 
 </Project>
